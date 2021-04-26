@@ -11,6 +11,7 @@ const build_query = (_obj) => {
   }
   let query = '';
   for (let i in _obj) {
+    _obj[i] = _obj[i] == null ? '' : _obj[i];
     query += '&' + i + '=' + _obj[i];
   }
   query = query.substr(1);
@@ -18,5 +19,3 @@ const build_query = (_obj) => {
 };
 
 export default build_query;
-
-

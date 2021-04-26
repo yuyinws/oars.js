@@ -37,6 +37,7 @@ oars.build_query(obj) //return 'name=foo&age=23'
 //第一个参数传入需要判断的规则，第二个参数传入需要判断的数据
 oars.reg('email','example@foo.com'); //return true
 oars.reg('phone','1122uujjj'); //return false
+oars.reg('ip','192.168.10.1'); // return true
 ```
 所有支持的规则
 - phone(手机号)

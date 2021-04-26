@@ -1,10 +1,11 @@
 {
   "name": "oarsjs",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "a JavaScript function lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx webpack"
   },
   "keywords": ["oarsjs"],
   "author": "yuyin",
